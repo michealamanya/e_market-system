@@ -1,0 +1,96 @@
+/* login-styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+        background-color: #f2f2f2;
+        background-image: url("images/back.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    height: 400px;
+    padding: 20px;
+    background-color: #62cef5;
+    border-radius: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+}
+
+input[type="text"], input[type="password"], button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        width: 90%;
+    }
+}
+.form-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block; /* Make labels take a full line */
+    margin-bottom: 5px; /* Add some space below the label */
+}
+
+.input {
+    width: 100%; /* Makes the input take full width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
